@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Speech to Text Translator</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Noto+Sans+HK:wght@300&display=swap&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="title"> Speech to Text Translator </h1>
+      <h2 class="subtitle"> An easy way to transcribe audio files quickly and efficiently</h2>
+    </div>
+    <div class="instructions">
+      <h3> 🐳 Directions </h3>
+      <ol>
+        <li> Upload file in any of the following formats: WAV (PCM/LPCM format), AIFF, AIFF-C, FLAC (native only)</li>
+        <li> Click Transcribe button and get your results!</li>
+      </ol>
+    </div>
+    <div class="upload">
+      <form action="/transcribe">
+          <input type="file" id="myFile" name="filename" value="MyFile">
+      </form>
+    </div>
+    <div class="buttons">
+      <button class="blue"> <a class="text" href="{{url_for('transcribe')}}">Transcribe</a></button>
+      <button> <a class="text" href="{{url_for('learn')}}">Learn More</a></button>
+    </div>
+  <footer> Made with ♡ by Michelle </footer>
+  </body>
+</html>

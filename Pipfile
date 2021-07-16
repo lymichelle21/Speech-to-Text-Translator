@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+speechrecognition = "*"
+pyaudio = {path = "./PyAudio-0.2.11-cp37-cp37m-win_amd64.whl"}
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
