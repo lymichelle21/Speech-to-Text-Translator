@@ -52,8 +52,8 @@ button {
 }
 
 .buttons{
-  padding-left: 45px;
-  padding-top: 15px;
+  padding-left: 53px;
+  padding-top: 5px;
 }
 
 .text{
@@ -64,6 +64,21 @@ button {
 
 .blue{
   background: rgb(96, 153, 246);
+}
+
+#submitButton{
+  background: rgb(0, 71, 171);
+  color: white;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  border-radius: 3px;
+  padding: 18px;
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .profile{
@@ -99,11 +114,17 @@ button {
   text-align: center;
 }
 
+ol{
+  margin-bottom: 30px;
+}
+
 footer{
-  color: black;
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(79, 225, 227), rgb(96, 153, 246), rgb(176, 78, 183));
   font-family: 'Noto Sans HK', sans-serif;
   font-size: 18px;
   text-align: center;
-  padding-top: 11px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 25px;
 }
